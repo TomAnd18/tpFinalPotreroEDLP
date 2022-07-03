@@ -1,8 +1,12 @@
 
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
 body {
     padding: 0%;
     margin: 0%;
-    background-color: bisque;
+    font-family: 'Quicksand', sans-serif;
+    /* background-color: bisque; */
 }
 
 a {
@@ -12,7 +16,9 @@ a {
 /*========================================Navegacion=====================================*/
 
 .nav-container {
-    background-color: #001dc2cc;
+    /* background-color: #001dc2cc; */
+    /* background-color: rgb(138, 018, 020); */
+    background-color: rgb(000, 015, 117);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -39,6 +45,7 @@ a {
 
 .name-container a {
     color: white;
+    font-size: 1.3rem;
 }
 
 .menu-nav {
@@ -76,11 +83,45 @@ a {
 }
 
 ul.show {
-    top: 65px;
+    top: 10vh;
     color: blue;
 }
 
+/*========================================HEADER=====================================*/
+
+.header-container {
+    /* background-color: brown; */
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    background-color: #006236;
+}
+
+.welcome-container {
+    /* background-color: burlywood; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 6rem;
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+}
+
+.carrusel-container {
+    width: 50%;
+}
+
 /*========================================RESPONSIVE=====================================*/
+
+@media (max-width: 1250px) {
+    .welcome-container {
+        font-size: 1rem;
+    }
+}
 
 @media (max-width: 858px) {
 
@@ -95,11 +136,27 @@ ul.show {
         top: -100vh;
         transition: all .4s;
         flex-direction: column;
-        background-color: #414141;
+        /* background-color: #414141; */
+        background-color: rgb(138, 018, 020);
         padding: 0%;
+        z-index: 10;
     }
 
     .btn-menu {
         display: inline-flex;
+    }
+
+    .header-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .carrusel-container {
+        width: 100vw;
+    }
+
+    .welcome-container {
+        width: 100%;
+        font-size: 1rem;
     }
 }

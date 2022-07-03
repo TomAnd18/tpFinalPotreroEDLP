@@ -1,0 +1,51 @@
+
+body {
+    padding: 0%;
+    margin: 0%;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*========================================Navegacion=====================================*/
+
+.nav-container {
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    /* min-height: 50%; */
+    flex-wrap: wrap;
+}
+
+.img-and-name {
+    /* background-color: bisque; */
+    width: 25%;
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+}
+
+.img-container img {
+    /*background-color: brown;*/
+    height: 50px;
+    margin-right: 0.5rem;
+}
+
+.option-nav {
+    /* background-color: bisque; */
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.option-nav a {
+    /* background-color: cadetblue; */
+    width: 20%;
+    margin: 0.2rem;
+    text-align: center;
+}

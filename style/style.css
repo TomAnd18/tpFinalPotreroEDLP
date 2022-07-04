@@ -238,6 +238,7 @@ ul.show {
 .section-dt {
     display: flex;
     justify-content: center;
+    padding-top: 3rem;
 }
 
 .dt-container {
@@ -246,6 +247,22 @@ ul.show {
     width: 80%;
     flex-direction: column;
     align-items: center;
+}
+
+/*========================================SUPLENTES=====================================*/
+
+.suplentes-container {
+    padding-top: 3rem;
+}
+
+/*========================================COPAS=====================================*/
+
+.copas-container {
+    padding-top: 5rem;
+}
+
+.card-body {
+    text-align: center;
 }
 
 /*========================================RESPONSIVE=====================================*/
@@ -317,5 +334,6 @@ ul.show {
 
     .camp-info {
         width: 90vw;
+        font-size: 1rem;
     }
 }

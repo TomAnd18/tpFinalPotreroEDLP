@@ -1,378 +1,551 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- ICONOS -->
-    <script src="https://kit.fontawesome.com/6c1a9b5729.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- ICONOS -->
+  <script src="https://kit.fontawesome.com/6c1a9b5729.js" crossorigin="anonymous"></script>
 
-    <!-- LINK DE BOOTSTRAP -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    
-    <link rel="stylesheet" href="./style/style.css">
-    <title>Futbol</title>
+  <!-- LINK DE BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="./style/style.css">
+  <title>Futbol</title>
 </head>
+
 <body>
-    <nav id="inicio" class="nav-container">
+  <nav id="Inicio" class="nav-container">
 
-        <div class="img-and-name">
-            <div class="img-container">
-                <a href="#"><img src="./img/fc-barcelona-logo-inicio.png" alt="FC-Barcelona"></a>
-            </div>
-
-            <div class="name-container">
-                <a href="#">FC BARCELONA by Tomas</a>
-            </div>
-        </div>
-
-        <ul id="menuOp" class="menu-nav">
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#Plantilla">Plantilla</a></li>
-            <li><a href="#inicio">Copas</a></li>
-            <li><a href="#">Contacto</a></li>
-            <li><a href="#">Acerca</a></li>
-        </ul>
-
-        <span id="btn" class="btn-menu">
-            <i class="fa-solid fa-align-justify"></i>
-        </span>
-
-    </nav>
-
-    <header class="header-container">
-
-        <div class="carrusel-container">
-            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="./img/camp-noux1.jpg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./img/camp-noux4.jpg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./img/camp-noux5.jpg" class="d-block w-100" alt="...">
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-        </div>
-
-          <div class="welcome-container">
-            <div>
-                <h1>¡BIENVENIDOS!</h1>
-            </div>
-            <div>
-                <p>
-                    En esta pagina web encontraras información del club FC BARCELONA. 
-                </p>
-                <p>
-                    El Fútbol Club Barcelona (en catalán, Futbol Club Barcelona), conocido popularmente como Barça, es una entidad polideportiva con sede en Barcelona, España. Fue fundado como club de fútbol el 29 de noviembre de 1899 y registrado oficialmente el 5 de enero de 1903.
-                </p>
-            </div>
-        </div>
-
-    </header>
-
-    <section class="section-camp">
-
-      <div class="plantilla-title">
-        <h2>Estadio Camp Nou</h2>
+    <div class="img-and-name">
+      <div class="img-container">
+        <a href="#"><img src="./img/fc-barcelona-logo-inicio.png" alt="FC-Barcelona"></a>
       </div>
 
-      <div class="camp-container">
-        <div class="img-camp">
-            <img src="./img/camp-noux2.jpg" alt="Camp Nou">
+      <div class="name-container">
+        <a href="#">FC BARCELONA by Tomas</a>
+      </div>
+    </div>
+
+    <ul id="menuOp" class="menu-nav">
+      <li><a href="#">Inicio</a></li>
+      <li><a href="#Plantilla">Plantilla</a></li>
+      <li><a href="#copas">Copas</a></li>
+      <li><a href="#">Contacto</a></li>
+      <li><a href="#">Acerca</a></li>
+    </ul>
+
+    <span id="btn" class="btn-menu">
+      <i class="fa-solid fa-align-justify"></i>
+    </span>
+
+  </nav>
+
+  <header class="header-container">
+
+    <div class="carrusel-container">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./img/camp-noux1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/camp-noux4.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./img/camp-noux5.jpg" class="d-block w-100" alt="...">
+          </div>
         </div>
-  
-        <div class="camp-info">
-            <p>El Camp Nou, denominado oficialmente como Spotify Camp Nou por motivos de patrocinio, es un recinto 
-              deportivo propiedad del Fútbol Club Barcelona, ubicado en el distrito de Les Corts de la ciudad de 
-              Barcelona, España. Se inauguró el 24 de septiembre de 1957 y su aforo actualmente es de 99,354 
-              espectadores, siendo el estadio con mayor capacidad de Europa y el tercero a nivel mundial.
-              La capacidad del estadio ha variado desde su aforo inicial de alrededor de noventa mil 
-              localidades, a su máximo aforo de ciento veinte mil espectadores, con la construcción con motivo 
-              del Mundial de España 1982, de la tercera gradería. Su aforo actual desde 1998 está por debajo 
-              de los cien mil espectadores, tras implantar las localidades de asiento para todo el estadio y 
-              ser catalogado por la UEFA con la máxima distinción, ESTADIO DE ELITE.
-            </p>
-        </div>
-  
-        <div class="img-camp">
-          <img src="./img/camp-noux3.jpg" alt="Camp Nou">
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="welcome-container">
+      <div>
+        <h1>¡BIENVENIDOS!</h1>
+      </div>
+      <div>
+        <p>
+          En esta pagina web encontraras información del club FC BARCELONA.
+        </p>
+        <p>
+          El Fútbol Club Barcelona (en catalán, Futbol Club Barcelona), conocido popularmente como Barça, es una entidad
+          polideportiva con sede en Barcelona, España. Fue fundado como club de fútbol el 29 de noviembre de 1899 y
+          registrado oficialmente el 5 de enero de 1903.
+        </p>
+      </div>
+    </div>
+
+  </header>
+
+  <section class="section-camp">
+
+    <div class="plantilla-title">
+      <h2>Estadio Camp Nou</h2>
+    </div>
+
+    <div class="camp-container">
+      <div class="img-camp">
+        <img src="./img/camp-noux2.jpg" alt="Camp Nou">
+      </div>
+
+      <div class="camp-info">
+        <p>El Camp Nou, denominado oficialmente como Spotify Camp Nou por motivos de patrocinio, es un recinto
+          deportivo propiedad del Fútbol Club Barcelona, ubicado en el distrito de Les Corts de la ciudad de
+          Barcelona, España. Se inauguró el 24 de septiembre de 1957 y su aforo actualmente es de 99,354
+          espectadores, siendo el estadio con mayor capacidad de Europa y el tercero a nivel mundial.
+          La capacidad del estadio ha variado desde su aforo inicial de alrededor de noventa mil
+          localidades, a su máximo aforo de ciento veinte mil espectadores, con la construcción con motivo
+          del Mundial de España 1982, de la tercera gradería. Su aforo actual desde 1998 está por debajo
+          de los cien mil espectadores, tras implantar las localidades de asiento para todo el estadio y
+          ser catalogado por la UEFA con la máxima distinción, ESTADIO DE ELITE.
+        </p>
+      </div>
+
+      <div class="img-camp">
+        <img src="./img/camp-noux3.jpg" alt="Camp Nou">
+      </div>
+    </div>
+
+
+  </section>
+
+  <section id="Plantilla" class="section-container">
+
+    <div class="plantilla-title">
+      <h2>Plantilla Titular</h2>
+    </div>
+
+    <div class="cards-player">
+      <div class="card-player">
+        <div class="card" style="width: 18rem;">
+          <img src="./img/lionelmessi.png" class="card-img-top" alt="Leo Messi">
+          <div class="card-body">
+            <h5 class="card-title">Lionel Messi</h5>
+            <p class="card-text">LEYENDA</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Edad: 35 años</li>
+            <li class="list-group-item">Altura: 1,70 m</li>
+            <li class="list-group-item">Nacionalidad: Argentina</li>
+          </ul>
+          <div class="card-body">
+            <a href="https://es.wikipedia.org/wiki/Lionel_Messi" target="_blank" class="card-link">Biografia</a>
+          </div>
         </div>
       </div>
-      
 
-    </section>
-
-    <section id="Plantilla" class="section-container">
-
-        <div class="plantilla-title">
-            <h2>Plantilla Titular</h2>
+      <div class="card-player">
+        <div class="card" style="width: 18rem;">
+          <img src="./img/ter_stegen.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Ter Stegen</h5>
+            <p class="card-text">Portero</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Edad: 30 años</li>
+            <li class="list-group-item">Altura: 1,87 m</li>
+            <li class="list-group-item">Nacionalidad: Alemania</li>
+          </ul>
+          <div class="card-body">
+            <a href="https://es.wikipedia.org/wiki/Marc-Andr%C3%A9_ter_Stegen" target="_blank"
+              class="card-link">Biografia</a>
+          </div>
         </div>
+      </div>
 
-        <div class="cards-player">
-            <div class="card-player">
-                <div class="card" style="width: 18rem;">
-                  <img src="./img/lionelmessi.png" class="card-img-top" alt="Leo Messi">
-                  <div class="card-body">
-                    <h5 class="card-title">Lionel Messi</h5>
-                    <p class="card-text">LEYENDA</p>
-                  </div>
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Edad: 35 años</li>
-                    <li class="list-group-item">Altura: 1,70 m</li>
-                    <li class="list-group-item">Nacionalidad: Argentina</li>
-                  </ul>
-                  <div class="card-body">
-                    <a href="https://es.wikipedia.org/wiki/Lionel_Messi" target="_blank" class="card-link">Biografia</a>
-                  </div>
-                </div>
-            </div>
-
-            <div class="card-player">
-                <div class="card" style="width: 18rem;">
-                    <img src="./img/ter_stegen.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Ter Stegen</h5>
-                      <p class="card-text">Portero</p>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                      <li class="list-group-item">Edad: 30 años</li>
-                      <li class="list-group-item">Altura: 1,87 m</li>
-                      <li class="list-group-item">Nacionalidad: Alemania</li>
-                    </ul>
-                    <div class="card-body">
-                      <a href="https://es.wikipedia.org/wiki/Marc-Andr%C3%A9_ter_Stegen" target="_blank" class="card-link">Biografia</a>
-                    </div>
-                  </div>
-            </div>
-
-            <div class="card-player">
-                <div class="card" style="width: 18rem;">
-                  <img src="./img/pique.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Gerard Piqué</h5>
-                    <p class="card-text">Defensor</p>
-                  </div>
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Edad: 35 años</li>
-                    <li class="list-group-item">Altura: 1,94 m</li>
-                    <li class="list-group-item">Nacionalidad: España</li>
-                  </ul>
-                  <div class="card-body">
-                    <a href="https://es.wikipedia.org/wiki/Gerard_Piqu%C3%A9" target="_blank" class="card-link">Biografia</a>
-                  </div>
-                </div>
-            </div>
-
-            <div class="card-player">
-                <div class="card" style="width: 18rem;">
-                  <img src="./img/araujo.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Ronald Araújo</h5>
-                    <p class="card-text">Defensor</p>
-                  </div>
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Edad: 23 años</li>
-                    <li class="list-group-item">Altura: 1,88 m</li>
-                    <li class="list-group-item">Nacionalidad: Uruguay</li>
-                  </ul>
-                  <div class="card-body">
-                    <a href="https://es.wikipedia.org/wiki/Ronald_Ara%C3%BAjo" target="_blank" class="card-link">Biografia</a>
-                  </div>
-                </div>
-            </div>
-
-            <div class="card-player">
-                <div class="card" style="width: 18rem;">
-                  <img src="./img/frenkie.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Frenkie de Jong</h5>
-                    <p class="card-text">Mediocampista</p>
-                  </div>
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Edad: 25 años</li>
-                    <li class="list-group-item">Altura: 1,80 m</li>
-                    <li class="list-group-item">Nacionalidad: Holanda</li>
-                  </ul>
-                  <div class="card-body">
-                    <a href="https://es.wikipedia.org/wiki/Frenkie_de_Jong" target="_blank" class="card-link">Biografia</a>
-                  </div>
-                </div>
-            </div>
-
-            <div class="card-player">
-                <div class="card" style="width: 18rem;">
-                  <img src="./img/ansu.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Ansu Fati</h5>
-                    <p class="card-text">Delantero</p>
-                  </div>
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Edad: 19 años</li>
-                    <li class="list-group-item">Altura: 1,78 m</li>
-                    <li class="list-group-item">Nacionalidad: España</li>
-                  </ul>
-                  <div class="card-body">
-                    <a href="https://es.wikipedia.org/wiki/Ansu_Fati" target="_blank" class="card-link">Biografia</a>
-                  </div>
-                </div>
-            </div>
-
-            <div class="card-player">
-                <div class="card" style="width: 18rem;">
-                  <img src="./img/jordi-alba.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Jordi Alba</h5>
-                    <p class="card-text">Defensor</p>
-                  </div>
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Edad: 33 años</li>
-                    <li class="list-group-item">Altura: 1,70 m</li>
-                    <li class="list-group-item">Nacionalidad: España</li>
-                  </ul>
-                  <div class="card-body">
-                    <a href="https://es.wikipedia.org/wiki/Jordi_Alba" target="_blank" class="card-link">Biografia</a>
-                  </div>
-                </div>
-            </div>
-
-            <div class="card-player">
-                <div class="card" style="width: 18rem;">
-                  <img src="./img/sergio.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Sergio Busquets</h5>
-                    <p class="card-text">Mediocampista</p>
-                  </div>
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Edad: 33 años</li>
-                    <li class="list-group-item">Altura: 1,89 m</li>
-                    <li class="list-group-item">Nacionalidad: España</li>
-                  </ul>
-                  <div class="card-body">
-                    <a href="https://es.wikipedia.org/wiki/Sergio_Busquets" target="_blank" class="card-link">Biografia</a>
-                  </div>
-                </div>
-            </div>
-
-            <div class="card-player">
-                <div class="card" style="width: 18rem;">
-                  <img src="./img/pedri.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Pedri</h5>
-                    <p class="card-text">Mediocampista</p>
-                  </div>
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Edad: 19 años</li>
-                    <li class="list-group-item">Altura: 1,74 m</li>
-                    <li class="list-group-item">Nacionalidad: España</li>
-                  </ul>
-                  <div class="card-body">
-                    <a href="https://es.wikipedia.org/wiki/Pedri" target="_blank" class="card-link">Biografia</a>
-                  </div>
-                </div>
-            </div>
-
-            <div class="card-player">
-                <div class="card" style="width: 18rem;">
-                  <img src="./img/memphis.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Memphis Depay</h5>
-                    <p class="card-text">Delantero</p>
-                  </div>
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Edad: 28 años</li>
-                    <li class="list-group-item">Altura: 1,76 m</li>
-                    <li class="list-group-item">Nacionalidad: Holanda</li>
-                  </ul>
-                  <div class="card-body">
-                    <a href="https://es.wikipedia.org/wiki/Memphis_Depay" target="_blank" class="card-link">Biografia</a>
-                  </div>
-                </div>
-            </div>
-
-            <div class="card-player">
-                <div class="card" style="width: 18rem;">
-                  <img src="./img/auba.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Aubameyang</h5>
-                    <p class="card-text">Delantero</p>
-                  </div>
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Edad: 33 años</li>
-                    <li class="list-group-item">Altura: 1,87 m</li>
-                    <li class="list-group-item">Nacionalidad: Gabón</li>
-                  </ul>
-                  <div class="card-body">
-                    <a href="https://es.wikipedia.org/wiki/Pierre-Emerick_Aubameyang" target="_blank" class="card-link">Biografia</a>
-                  </div>
-                </div>
-            </div>
-
-            <div class="card-player">
-                <div class="card" style="width: 18rem;">
-                  <img src="./img/eric.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Eric García</h5>
-                    <p class="card-text">Defensor</p>
-                  </div>
-                  <ul class="list-group list-group-flush">
-                    <li class="list-group-item">Edad: 21 años</li>
-                    <li class="list-group-item">Altura: 1,82 m</li>
-                    <li class="list-group-item">Nacionalidad: España</li>
-                  </ul>
-                  <div class="card-body">
-                    <a href="https://es.wikipedia.org/wiki/Eric_Garc%C3%ADa" target="_blank" class="card-link">Biografia</a>
-                  </div>
-                </div>
-            </div>
-
+      <div class="card-player">
+        <div class="card" style="width: 18rem;">
+          <img src="./img/pique.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Gerard Piqué</h5>
+            <p class="card-text">Defensor</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Edad: 35 años</li>
+            <li class="list-group-item">Altura: 1,94 m</li>
+            <li class="list-group-item">Nacionalidad: España</li>
+          </ul>
+          <div class="card-body">
+            <a href="https://es.wikipedia.org/wiki/Gerard_Piqu%C3%A9" target="_blank" class="card-link">Biografia</a>
+          </div>
         </div>
-    </section>
+      </div>
 
-    <section class="section-dt">
-
-        <div class="dt-container">
-            <div class="dt-title">
-                <h2>DIRECTOR TECNICO</h2>
-            </div>
-
-            <div class="dt-card">
-                <div class="card" style="width: 18rem;">
-                    <img src="./img/xavi.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Xavi Hernandez</h5>
-                      <p class="card-text">Director Tecnico</p>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                      <li class="list-group-item">Edad: 42 años</li>
-                      <li class="list-group-item">Altura: 1,70 m</li>
-                      <li class="list-group-item">Nacionalidad: España</li>
-                    </ul>
-                    <div class="card-body">
-                      <a href="https://es.wikipedia.org/wiki/Xavi_Hern%C3%A1ndez" target="_blank" class="card-link">Biografia</a>
-                    </div>
-                  </div>
-            </div>
+      <div class="card-player">
+        <div class="card" style="width: 18rem;">
+          <img src="./img/araujo.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Ronald Araújo</h5>
+            <p class="card-text">Defensor</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Edad: 23 años</li>
+            <li class="list-group-item">Altura: 1,88 m</li>
+            <li class="list-group-item">Nacionalidad: Uruguay</li>
+          </ul>
+          <div class="card-body">
+            <a href="https://es.wikipedia.org/wiki/Ronald_Ara%C3%BAjo" target="_blank" class="card-link">Biografia</a>
+          </div>
         </div>
+      </div>
 
-    </section>
+      <div class="card-player">
+        <div class="card" style="width: 18rem;">
+          <img src="./img/frenkie.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Frenkie de Jong</h5>
+            <p class="card-text">Mediocampista</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Edad: 25 años</li>
+            <li class="list-group-item">Altura: 1,80 m</li>
+            <li class="list-group-item">Nacionalidad: Holanda</li>
+          </ul>
+          <div class="card-body">
+            <a href="https://es.wikipedia.org/wiki/Frenkie_de_Jong" target="_blank" class="card-link">Biografia</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-player">
+        <div class="card" style="width: 18rem;">
+          <img src="./img/ansu.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Ansu Fati</h5>
+            <p class="card-text">Delantero</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Edad: 19 años</li>
+            <li class="list-group-item">Altura: 1,78 m</li>
+            <li class="list-group-item">Nacionalidad: España</li>
+          </ul>
+          <div class="card-body">
+            <a href="https://es.wikipedia.org/wiki/Ansu_Fati" target="_blank" class="card-link">Biografia</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-player">
+        <div class="card" style="width: 18rem;">
+          <img src="./img/jordi-alba.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Jordi Alba</h5>
+            <p class="card-text">Defensor</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Edad: 33 años</li>
+            <li class="list-group-item">Altura: 1,70 m</li>
+            <li class="list-group-item">Nacionalidad: España</li>
+          </ul>
+          <div class="card-body">
+            <a href="https://es.wikipedia.org/wiki/Jordi_Alba" target="_blank" class="card-link">Biografia</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-player">
+        <div class="card" style="width: 18rem;">
+          <img src="./img/sergio.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Sergio Busquets</h5>
+            <p class="card-text">Mediocampista</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Edad: 33 años</li>
+            <li class="list-group-item">Altura: 1,89 m</li>
+            <li class="list-group-item">Nacionalidad: España</li>
+          </ul>
+          <div class="card-body">
+            <a href="https://es.wikipedia.org/wiki/Sergio_Busquets" target="_blank" class="card-link">Biografia</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-player">
+        <div class="card" style="width: 18rem;">
+          <img src="./img/pedri.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Pedri</h5>
+            <p class="card-text">Mediocampista</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Edad: 19 años</li>
+            <li class="list-group-item">Altura: 1,74 m</li>
+            <li class="list-group-item">Nacionalidad: España</li>
+          </ul>
+          <div class="card-body">
+            <a href="https://es.wikipedia.org/wiki/Pedri" target="_blank" class="card-link">Biografia</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-player">
+        <div class="card" style="width: 18rem;">
+          <img src="./img/memphis.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Memphis Depay</h5>
+            <p class="card-text">Delantero</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Edad: 28 años</li>
+            <li class="list-group-item">Altura: 1,76 m</li>
+            <li class="list-group-item">Nacionalidad: Holanda</li>
+          </ul>
+          <div class="card-body">
+            <a href="https://es.wikipedia.org/wiki/Memphis_Depay" target="_blank" class="card-link">Biografia</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-player">
+        <div class="card" style="width: 18rem;">
+          <img src="./img/auba.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Aubameyang</h5>
+            <p class="card-text">Delantero</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Edad: 33 años</li>
+            <li class="list-group-item">Altura: 1,87 m</li>
+            <li class="list-group-item">Nacionalidad: Gabón</li>
+          </ul>
+          <div class="card-body">
+            <a href="https://es.wikipedia.org/wiki/Pierre-Emerick_Aubameyang" target="_blank"
+              class="card-link">Biografia</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-player">
+        <div class="card" style="width: 18rem;">
+          <img src="./img/eric.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Eric García</h5>
+            <p class="card-text">Defensor</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Edad: 21 años</li>
+            <li class="list-group-item">Altura: 1,82 m</li>
+            <li class="list-group-item">Nacionalidad: España</li>
+          </ul>
+          <div class="card-body">
+            <a href="https://es.wikipedia.org/wiki/Eric_Garc%C3%ADa" target="_blank" class="card-link">Biografia</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section-dt">
+
+    <div class="dt-container">
+      <div class="dt-title">
+        <h2>DIRECTOR TECNICO</h2>
+      </div>
+
+      <div class="dt-card">
+        <div class="card" style="width: 18rem;">
+          <img src="./img/xavi.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Xavi Hernandez</h5>
+            <p class="card-text">Director Tecnico</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Edad: 42 años</li>
+            <li class="list-group-item">Altura: 1,70 m</li>
+            <li class="list-group-item">Nacionalidad: España</li>
+          </ul>
+          <div class="card-body">
+            <a href="https://es.wikipedia.org/wiki/Xavi_Hern%C3%A1ndez" target="_blank" class="card-link">Biografia</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="suplentes-container">
+
+    <div class="plantilla-title">
+      <h2>Suplentes</h2>
+    </div>
+
+    <div class="cards-player">
+      <div class="card-player">
+        <div class="card" style="width: 18rem;">
+          <img src="./img/neto.jpg" class="card-img-top" alt="Leo Messi">
+          <div class="card-body">
+            <h5 class="card-title">Neto</h5>
+            <p class="card-text">Portero</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Edad: 32 años</li>
+            <li class="list-group-item">Altura: 1,90 m</li>
+            <li class="list-group-item">Nacionalidad: Brasil</li>
+          </ul>
+          <div class="card-body">
+            <a href="https://es.wikipedia.org/wiki/Neto_Murara" target="_blank" class="card-link">Biografia</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-player">
+        <div class="card" style="width: 18rem;">
+          <img src="./img/dest.jpg" class="card-img-top" alt="Leo Messi">
+          <div class="card-body">
+            <h5 class="card-title">Sergiño Dest</h5>
+            <p class="card-text">Defensor</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Edad: 21 años</li>
+            <li class="list-group-item">Altura: 1,75 m</li>
+            <li class="list-group-item">Nacionalidad: Estados Unidos</li>
+          </ul>
+          <div class="card-body">
+            <a href="https://es.wikipedia.org/wiki/Sergi%C3%B1o_Dest" target="_blank" class="card-link">Biografia</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-player">
+        <div class="card" style="width: 18rem;">
+          <img src="./img/LENGLET.jpg" class="card-img-top" alt="Leo Messi">
+          <div class="card-body">
+            <h5 class="card-title">Clément Lenglet</h5>
+            <p class="card-text">Defensor</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Edad: 27 años</li>
+            <li class="list-group-item">Altura: 1,86 m</li>
+            <li class="list-group-item">Nacionalidad: Francia</li>
+          </ul>
+          <div class="card-body">
+            <a href="https://es.wikipedia.org/wiki/Cl%C3%A9ment_Lenglet" target="_blank" class="card-link">Biografia</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-player">
+        <div class="card" style="width: 18rem;">
+          <img src="./img/ferrann-torres.jpg" class="card-img-top" alt="Leo Messi">
+          <div class="card-body">
+            <h5 class="card-title">Ferran Torres</h5>
+            <p class="card-text">Delantero</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Edad: 22 años</li>
+            <li class="list-group-item">Altura: 1,84 m</li>
+            <li class="list-group-item">Nacionalidad: España</li>
+          </ul>
+          <div class="card-body">
+            <a href="https://es.wikipedia.org/wiki/Ferran_Torres" target="_blank" class="card-link">Biografia</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-player">
+        <div class="card" style="width: 18rem;">
+          <img src="./img/s.-roberto.jpg" class="card-img-top" alt="Leo Messi">
+          <div class="card-body">
+            <h5 class="card-title">Sergi Roberto</h5>
+            <p class="card-text">Defensor</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">Edad: 30 años</li>
+            <li class="list-group-item">Altura: 1,78 m</li>
+            <li class="list-group-item">Nacionalidad: España</li>
+          </ul>
+          <div class="card-body">
+            <a href="https://es.wikipedia.org/wiki/Sergi_Roberto" target="_blank" class="card-link">Biografia</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="copas" class="copas-container">
+
+    <div class="plantilla-title">
+      <h2>Copas</h2>
+    </div>
+
+    <div class="cards-player">
+
+      <div class="card-player">
+        <div class="card" style="width: 18rem;">
+          <img src="./img/UEFA-Champions-League.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">UEFA Champions League</h5>
+            <h5 class="card-title">5</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-player">
+        <div class="card" style="width: 18rem;">
+          <img src="./img/spanishleague.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Liga Española</h5>
+            <h5 class="card-title">26</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-player">
+        <div class="card" style="width: 18rem;">
+          <img src="./img/copadelrey.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Copa del Rey</h5>
+            <h5 class="card-title">31</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-player">
+        <div class="card" style="width: 18rem;">
+          <img src="./img/MundialDeClubes.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Mundial de Clubs</h5>
+            <h5 class="card-title">5</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="card-player">
+        <div class="card" style="width: 18rem;">
+          <img src="./img/SuperCup.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Supercopa de Europa</h5>
+            <h5 class="card-title">5</h5>
+            <!-- <p class="card-text">5</p> -->
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
 
 </body>
 
 <script src="./js/script.js"></script>
 
 <!-- LINK DE JS DE BOOTSTRAP -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 
 </html>

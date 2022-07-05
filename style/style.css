@@ -302,6 +302,45 @@ ul.show {
     text-align: center;
 }
 
+/*========================================CAMISETAS=====================================*/
+
+.camisetas-container {
+    /* background-color: #55acee; */
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.camisetas {
+    /* background-color: #e4405f; */
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.img-text {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-camiseta {
+    /* background-color: #e4405f; */
+    width: 100%;
+    padding-bottom: 1rem;
+    border-radius: 2rem;
+}
+
+.img-camiseta img {
+    width: 100%;
+    border-radius: 2rem;
+}
+
+
+
 /*=======================================FOOTER===============================================*/
 
 .footer-container {
@@ -575,6 +614,20 @@ ul.show {
 
     .dt-container  {
         width: 100%;
+    }
+
+    .camisetas {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-text {
+        width: 80%;
+        padding-bottom: 2rem;
+    }
+
+    .img-camiseta {
+        padding-bottom: 1rem;
     }
 
 }

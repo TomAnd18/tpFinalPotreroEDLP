@@ -9,3 +9,6 @@ addEventListener('DOMContentLoaded', () => {
     }
 })
 
+function infoCreador() {
+    alert('Pagina Web desarrollado por Tomas Regalado Manay');
+}

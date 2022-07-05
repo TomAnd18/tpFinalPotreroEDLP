@@ -428,6 +428,27 @@ ul.show {
         width: 90vw;
         font-size: 1.2rem;
     }
+
+    .nav-container {
+        height: 10vh;
+    }
+
+    .menu-nav {
+        position: fixed;
+        width: 100vw;
+        height: calc(50vh - 10vh);
+        top: -100vh;
+        transition: all .4s;
+        flex-direction: column;
+        /* background-color: #414141; */
+        background-color: rgb(138, 018, 020);
+        padding: 0%;
+        z-index: 10;
+    }
+
+    .btn-menu {
+        display: inline-flex;
+    }
 }
 
 @media (max-width: 858px) {
@@ -450,7 +471,10 @@ ul.show {
     }
 
     .btn-menu {
+        /* background-color: #55acee; */
+        width: 20%;
         display: inline-flex;
+        justify-content: end;
     }
 
     .header-container {
@@ -476,7 +500,8 @@ ul.show {
     }
 
     .img-and-name {
-        width: 50%;
+        /* background-color: #55acee; */
+        width: 65%;
     }
 
     .camp-container {

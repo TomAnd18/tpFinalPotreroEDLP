@@ -291,6 +291,37 @@ ul.show {
     padding-top: 3rem;
 }
 
+/*========================================CUPS HISTORY=====================================*/
+
+.cups-text {
+    width: 100vw;
+    display: flex;
+    padding: 1rem;
+    margin-top: 5rem;
+    justify-content: space-around;
+}
+
+.text-cups {
+    /* background-color: #55acee; */
+    width: 40%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+    /* font-family: 'Titan One', cursive; */
+}
+
+.img-cups {
+    width: 50%;
+}
+
+.img-cups img {
+    width: 100%;
+}
+
 /*========================================COPAS=====================================*/
 
 .copas-container {
@@ -628,6 +659,23 @@ ul.show {
 
     .img-camiseta {
         padding-bottom: 1rem;
+    }
+
+    .cups-text {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .text-cups {
+        /* background-color: #55acee; */
+        width: 90%;
+        font-size: 1rem;
+    }
+    
+    .img-cups {
+        width: 90%;
     }
 
 }

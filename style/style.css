@@ -259,10 +259,106 @@ ul.show {
 
 .copas-container {
     padding-top: 5rem;
+    padding-bottom: 3rem;
 }
 
 .card-body {
     text-align: center;
+}
+
+/*=======================================FOOTER===============================================*/
+
+.footer-container {
+    background-color: hwb(221 28% 3%);
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 2rem .5rem 2rem;
+}
+
+.footer {
+    /* background-color: #3b5999; */
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.redes-container {
+    /* background-color: antiquewhite; */
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.option-footer {
+    /* background-color: antiquewhite; */
+    width: 40%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    padding-left: 10%;
+}
+
+.option-footer a {
+    color: white;
+    font-size: 1.3rem;
+}
+
+.copy-container {
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.copy-container h5 {
+    font-size: 1rem;
+}
+
+.option-footer a:hover {
+    /* color: #e4405f; */
+    color: rgb(138, 018, 020);
+}
+
+.redes-sociales {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes-sociales a {
+    display: inline-block;
+    text-decoration: none;
+    width: 3rem;
+    height: 3rem;
+    line-height: 3rem;
+    color: #fff;
+    margin: 1rem;
+    background-color: #0d2033;
+    text-align: center;
+    border-radius: 0.4rem;
+    font-size: 2rem;
+}
+
+/* .redes-sociales a:hover {
+    transform: translateY(-5px) scale(1.05); + se agranda para abako - tamaño
+    box-shadow: 0px 5px 5px 0px #0d2033; abajo derecha opasidad tamaño
+} */
+
+.redes-sociales .facebook:hover {
+    background-color: #3b5999;
+}
+
+.redes-sociales .instagram:hover {
+    background-color: #e4405f;
+}
+
+.redes-sociales .twitter:hover {
+    background-color: #55acee;
 }
 
 /*========================================RESPONSIVE=====================================*/
@@ -335,5 +431,41 @@ ul.show {
     .camp-info {
         width: 90vw;
         font-size: 1rem;
+    }
+
+    .footer {
+        flex-direction: column;
+        width: 100vw;
+        text-align: center;
+        margin: 0%;
+    }
+
+    .option-footer {
+        width: 100%;
+        padding: 0%;
+        padding-top: 1rem;
+    }
+
+    .option-footer a {
+        font-size: 1rem;
+    }
+
+    .redes-container {
+        width: 100%;
+        text-align: center;
+        padding-top: 2rem;
+    }
+
+    .redes-container h4 {
+        font-size: 1rem;
+    }
+
+    .footer-container {
+        padding: 0%;
+    }
+
+    .copy-container h5 {
+        font-size: 0.8rem;
+        text-align: center;
     }
 }

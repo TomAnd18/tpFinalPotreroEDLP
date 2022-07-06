@@ -564,8 +564,10 @@ ul.show {
     }
 
     .welcome-container {
+        /* background-color: #55acee; */
         width: 100%;
         font-size: 1rem;
+        padding: 1rem;
     }
 
     .img-container img {

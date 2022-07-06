@@ -297,7 +297,6 @@ ul.show {
     width: 100vw;
     display: flex;
     padding: 1rem;
-    margin-top: 5rem;
     justify-content: space-around;
 }
 
@@ -326,7 +325,7 @@ ul.show {
 
 .copas-container {
     padding-top: 5rem;
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
 }
 
 .card-body {
@@ -369,8 +368,6 @@ ul.show {
     width: 100%;
     border-radius: 2rem;
 }
-
-
 
 /*=======================================FOOTER===============================================*/
 
@@ -522,6 +519,24 @@ ul.show {
     .btn-menu {
         display: inline-flex;
     }
+
+    .cups-text {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .text-cups {
+        /* background-color: #55acee; */
+        width: 90%;
+        font-size: 1.2rem;
+    }
+    
+    .img-cups {
+        width: 90%;
+    }
+
 }
 
 @media (max-width: 858px) {
